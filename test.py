@@ -1,3 +1,4 @@
+import numpy as np
 # if (a == True and
 #     b == False):
 
@@ -11,3 +12,5 @@ def fahr_to_cels(fahr):
     # Convert temperature in Fahrenheit to Celsius
     cels = (fahr + 32) * (5/9)
     return cels
+
+print(np.mean([2, 3, 5]))
